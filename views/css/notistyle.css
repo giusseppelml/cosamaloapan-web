@@ -1,0 +1,39 @@
+
+section{width:100%; float:left;}
+.post-title-block{padding:100px 0;}
+.post-title-block h1 {color: #fff; font-size: 85px; font-weight: bold; text-transform: capitalize;}
+.post-title-block li{font-size:20px; color: #fff;}
+.image-block{float:left; width:100%; margin-bottom:10px;}
+.footer-link{float:left; width:100%; background:#222222; text-align:center; padding:30px;}
+.footer-link a{color:#A9FD00; font-size:18px; text-transform:uppercase;}
+
+div.col-md-2.col-sm-6.col-xs-12.p10{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.compartirRedes{
+	border:0px;
+	box-shadow:none;
+	margin:0px;
+}
+
+.compartirRedes li p{
+	color:white;
+	text-align: center;
+	line-height: 30px;
+	padding:8px;
+	font-size:18px;
+	margin-top:10px;
+	margin-bottom:20px;
+	cursor:pointer;
+
+}
+
+.btnFacebook{
+	background:#46639f;
+}
+
+.btnGoogle{
+	background:#d6513e;
+}

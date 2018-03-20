@@ -1,0 +1,158 @@
+body { -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;  letter-spacing: 0px; font-size: 16px; color: #6e726e; font-weight: 400; line-height: 27px; }
+h1, h2, h3, h4, h5, h6 { color: #121312; margin: 0px 0px 15px 0px; font-weight: 400;  }
+h1 { font-size: 38px; line-height: 48px; }
+h2 { font-size: 36px; line-height: 42px; }
+h3 { font-size: 26px; line-height: 36px; }
+h4 { font-size: 20px; line-height: 26px; }
+h5 { font-size: 16px; }
+h6 { font-size: 12px; }
+p { margin: 0 0 24px; line-height: 1.6; }
+p:last-child { margin: 0px; }
+ul, ol { list-style: none; margin: 0; padding: 0; }
+a { text-decoration: none; color: #121312; -webkit-transition: all 0.3s; -moz-transition: all 0.3s; transition: all 0.3s; }
+a:focus, a:hover { text-decoration: none; color: #23527c;  }
+
+
+
+
+img{width: 100%;}
+
+
+.menu-block { margin-bottom: 30px; }
+.menu-title { border-bottom: 3px solid #e0e6e3; margin-bottom: 36px; padding-bottom: 10px; }
+.menu-content { border-bottom: 1px solid #e0e6e3; margin-bottom: 30px; }
+.dish-img { }
+.dish-content { margin-top: 12px; margin-left: 12px; margin-bottom: 40px; }
+.dish-meta { font-size: 12px; text-transform: uppercase; display: block; width: 210px; line-height: 1.7; }
+.dish-title { margin-bottom: 6px; font-size: 15px; text-transform: uppercase; font-weight: 500; position: relative; }
+.dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500;  }
+.well-block .dish-meta { width: 100%; }
+.well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500;position: inherit; }
+
+
+ul.fa-ul{
+    font-size: 80%;
+}
+
+
+
+.healthy-snacks {
+  margin: 2em auto;
+  width: 90%;
+  max-width: 680px;
+  background: #fff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.healthy-snacks .featured-image {
+  position: relative;
+  overflow: hidden;
+}
+.healthy-snacks .featured-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  vertical-align: bottom;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.healthy-snacks .featured-image .arrow {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0px;
+  background-color: #fff;
+}
+.healthy-snacks .featured-image .arrow:before, .healthy-snacks .featured-image .arrow:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  width: 80%;
+  height: 20px;
+  background-color: inherit;
+}
+.healthy-snacks .featured-image .arrow:before {
+  right: 80%;
+  -webkit-transform-origin: 100% 100%;
+  -moz-transform-origin: 100% 100%;
+  -ms-transform-origin: 100% 100%;
+  -o-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
+  -webkit-transform: skewX(45deg);
+  -moz-transform: skewX(45deg);
+  -ms-transform: skewX(45deg);
+  -o-transform: skewX(45deg);
+  transform: skewX(45deg);
+}
+.healthy-snacks .featured-image .arrow:after {
+  left: 20%;
+  -webkit-transform-origin: 0 100%;
+  -moz-transform-origin: 0 100%;
+  -ms-transform-origin: 0 100%;
+  -o-transform-origin: 0 100%;
+  transform-origin: 0 100%;
+  -webkit-transform: skewX(-45deg);
+  -moz-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  -o-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+.healthy-snacks article {
+  padding: 1em 1em 2em;
+}
+.healthy-snacks article::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+.healthy-snacks article header {
+  border-bottom: 2px solid #9bb068;
+}
+.healthy-snacks article header h3 {
+  margin: 0 0 0.25em;
+  font-size: 1.5em;
+  color: #767d2e;
+  text-align: center;
+  text-transform: uppercase;
+}
+.healthy-snacks article .excerpt {
+}
+.healthy-snacks article .excerpt p {
+  line-height: 24px;
+}
+.healthy-snacks article .excerpt a {
+  display: block;
+  margin-top: 1em;
+  color: #c00413;
+  text-decoration: none;
+}
+.healthy-snacks article .excerpt a:hover {
+  color: #fb2f40;
+}
+.healthy-snacks article .excerpt a span:first-child {
+  padding-right: 1em;
+  vertical-align: middle;
+}
+@media only screen and (min-width: 680px) {
+  .healthy-snacks article header {
+    width: 40%;
+    float: left;
+    border-bottom: none;
+    border-right: 2px solid #9bb068;
+  }
+  .healthy-snacks article header h3 {
+    margin: 1em 0;
+    font-size: 20px;
+  }
+  .healthy-snacks article header h3 span {
+    display: block;
+  }
+  .healthy-snacks article .excerpt {
+    width: 60%;
+    float: left;
+    padding-left: 2em;
+  }
